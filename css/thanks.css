@@ -1,0 +1,17 @@
+.main-article{
+  text-align: center;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+    /*vertical-align: top;*/
+    /*padding-top: 100px;*/
+  }
+}

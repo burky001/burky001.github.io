@@ -7,13 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home - Chris Burke</title>
+    <title>Contact - Chris Burke</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,27 +36,48 @@
               <h3 class="masthead-brand">Chris Burke</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Software Developer</h1>
-            <h4 class="cover-subheading">and General Technology Enthusiast</h4>
-            <div class=" main-article">
+
+            <div class="main-article">
+
+              <h1 class="cover-heading">Contact Me</h1>
               <p class="lead">
-              	<h2>Hello World!</h2>
+                I'm available for freelance work!
               </p>
-              <p class="lead">
-                I'm a programmer that enjoys discovering and playing with new technologies!
-              </p>
-              <p class="lead">
-                My comfort area is in Java, JavaScript and Python, and my interest is in process automation and web based applications.
-              </p>
+
+            <form action="//formspree.io/christopher.matthew.burke@gmail.com">
+
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+                </div>
+
+                <div class="form-group">
+                  <label for="_replyto">Email address</label>
+                  <input type="email" class="form-control" id="_replyto" name="_replyto" placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                  <textarea class="form-control" rows="3" id="body" name="body" placeholder="Message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-default" value="Send">Send</button>
+                
+                <input type="hidden" name="_next" value="//burky001.github.io/thanks.html" />
+                <input type="hidden" name="_subject" value="New contact submission" />
+                <input type="text" name="_gotcha" style="display:none" />
+
+            </form>
+              
             </div>
+
           </div>
 
           <div class="mastfoot">
